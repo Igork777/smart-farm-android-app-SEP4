@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#474747"
+    tools:context=".MVVM.View.Activities.LoginActivity">
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="195dp"
+        android:layout_height="67dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="48dp"
+        android:background="@color/common_google_signin_btn_text_light_pressed"
+        android:enabled="true"
+        android:onClick="signIn"
+        android:text="@string/sign_in_register"
+        android:textColor="@color/design_default_color_background"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@android:color/holo_green_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <TextView
+        android:id="@+id/smartFarmTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/smartfarm"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:textStyle="italic"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="204dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/smartFarmTitle"
+        app:srcCompat="@drawable/androidlogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

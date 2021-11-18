@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/monitorFragment">
+<!--    <fragment-->
+<!--        android:id="@+id/loginFragment"-->
+<!--        android:name="com.example.smartfarmandroidapp.MVVM.View.Fragments.LoginFragment"-->
+<!--        android:label="LoginFragment"-->
+<!--        tools:layout="@layout/fragment_login"-->
+
+<!--        >-->
+<!--        <action-->
+<!--            android:id="@+id/action_loginFragment_to_monitorFragment"-->
+<!--            app:destination="@id/monitorFragment" />-->
+<!--    </fragment>-->
+    <fragment
+        android:id="@+id/farmSettingsFragment"
+        android:name="com.example.smartfarmandroidapp.MVVM.View.Fragments.FarmSettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_farm_settings">
+        <action
+            android:id="@+id/action_farmSettingsFragment_to_monitorFragment"
+            app:destination="@id/monitorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/monitorFragment"
+        android:name="com.example.smartfarmandroidapp.MVVM.View.Fragments.MonitorFragment"
+        android:label="Front Page"
+        tools:layout="@layout/fragment_monitor">
+        <action
+            android:id="@+id/action_monitorFragment_to_farmSettingsFragment"
+            app:destination="@id/farmSettingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyMeasurementFragment"
+        android:name="com.example.smartfarmandroidapp.MVVM.View.Fragments.MeasurementHistoryFragment"
+        android:label="Measurement History"
+        tools:layout="@layout/fragment_measurement_history">
+    </fragment>
+</navigation>

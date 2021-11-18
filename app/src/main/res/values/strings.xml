@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SmartFarm</string>
+    <string name="_599">599</string>
+    <string name="c">°C</string>
+    <string name="your_plant_s_status">Your plant\'s status</string>
+    <string name="smartfarm">SmartFarm</string>
+    <string name="percentage">%</string>
+    <string name="_50">50</string>
+    <string name="humidity">Humidity</string>
+    <string name="_60">60</string>
+    <string name="temperature">Temperature</string>
+    <string name="co2_ppm">CO2 (ppm)</string>
+    <string name="sign_in_register">Sign in / Register</string>
+    <string name="fblogo">fblogo</string>
+    <string name="facebook_app_id">897519090826446</string>
+    <string name="fb_login_protocol_scheme">fb897519090826446</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+    <string name="add_settings">ADD SETTINGS</string>
+    <string name="choose_the_measurement_you_want_to_see_fragment_measurement_history">Choose the measurement you want to see</string>
+    <string name="text_value_measurmentItem">Value:</string>
+    <string name="measured_at">Measured at:</string>
+    <string-array name="history_data_array">
+        <item>Temperature</item>
+        <item>Humidity</item>
+        <item>CO2</item>
+    </string-array>
+    <string name="channel_name">Alert</string>
+    <string name="channel_description"></string>
+</resources>
