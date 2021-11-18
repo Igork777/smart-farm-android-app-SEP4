@@ -10,6 +10,7 @@ This project is an android application to control the smart farm. The applicatio
 
 ## Technologies
 * Java for Android
+* SQLite
 
 ## Implemented functionality
 
